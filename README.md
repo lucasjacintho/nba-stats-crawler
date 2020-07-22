@@ -1,8 +1,8 @@
 # scrapy
 
-This's a simple use for web-crawler in python with scrapy. You can use this data for analysis about the best players in the season according to your season stats or whatever you want do. 😄 
+This's a simple use for web-crawler in python with scrapy. You can use this data for analysis about the best players in the season according to your season stats or whatever you want do. 😄
 
-Data collected in [basketball-reference](https://https://www.basketball-reference.com/leagues/NBA_2020_per_game.htmlhttps://www.basketball-reference.com/leagues/NBA_2020_per_game.html) 👍 
+Data collected in [basketball-reference](https://www.basketball-reference.com/leagues/NBA_2020_per_game.html) 👍
 
 ###### Install dependencies
 
