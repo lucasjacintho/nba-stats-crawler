@@ -4,6 +4,18 @@ This's a simple use for web-crawler in python with scrapy. You can use this data
 
 Data collected in [basketball-reference](https://www.basketball-reference.com/leagues/NBA_2020_per_game.html) 👍
 
+###### Configs
+
+Create a file named .env (this file is responsible for archive locally all connection string) with this config bellowCreate a file named .env (this file is responsible for archive locally all connection string) with this config bellow
+
+```
+POSTGRES_HOST = "HOST"
+POSTGRES_PORT = "HOST_PORT_HERE"
+POSTGRES_DB = BD_NAME
+POSTGRES_USER = BD_USER
+POSTGRES_PASSWORD = BD_PASSWORD
+```
+
 ###### Install dependencies
 
 You need pip installed in your environment, if you've installed pip previously, go ahead!
