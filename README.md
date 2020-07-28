@@ -32,7 +32,31 @@ pip3 install -r requirements.txt
 
 ###### Execution
 
-in your terminal put this line:
+**Create docker container (Postgresql)**
+Open the terminal in the root folder project and put this command
+
+```
+sudo docker-compose up -d 
+```
+
+ps: Obviously, you need docker and docker-compose installed
+
+**Testing the connection**
+Ok, in terminal again go to folder connection
+
+```
+cd bd/connection/
+```
+
+Test if there is a connection to the database and if is everything ok
+
+```
+python3 ManagerConection.py
+```
+
+ps: If you have any problems with the connection, check that the docker container is **started**
+
+And then, in your terminal put this line:
 
 ```
 scrapy runspider nba-api-test.py -o ./output-tests/output.json 
